@@ -6,26 +6,23 @@ import model.Boutique;
 import model.Client;
 import model.Console;
 import model.Jeu;
+import model.Salon;
 
 public class test {
 
 
 	public static void main(String[] args) {
 		
-		Console ps4 = new Console ("PS4",350,"12-12-2010");
-		Console pc = new Console ("PC Gaming",2200,"10-01-2020");
-		Console Xbox = new Console ("XBOX",350,"12-12-2009");
-<<<<<<< HEAD
+		Console ps4 = new Salon ("PS4",350,"12-12-2010");
+		Console pc = new Salon ("PC Gaming",2200,"10-01-2020");
+		Console Xbox = new Salon ("XBOX",350,"12-12-2009");
+
+		
+		Client c1 = new Client("tata","titi");
+		Client c2 = new Client("toto","tata");
+		
 		
 
-=======
-		
-		Clinet c1 = new Client("tata";"titi");
-		Client c2 = new Clinet("toto","tata");
-		
-		
-		
->>>>>>> main
 		Jeu j1 = new Jeu ("Fifa",pc);
 		Jeu j2 = new Jeu ("Burnout",ps4);
 		Jeu j3 = new Jeu ("Zelda",ps4);
