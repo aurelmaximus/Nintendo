@@ -3,6 +3,7 @@ package test;
 import model.Achat;
 import model.Adresse;
 import model.Boutique;
+import model.Client;
 import model.Console;
 import model.Jeu;
 
@@ -15,7 +16,11 @@ public class test {
 		Console pc = new Console ("PC Gaming",2200,"10-01-2020");
 		Console Xbox = new Console ("XBOX",350,"12-12-2009");
 		
-
+		Clinet c1 = new Client("tata";"titi");
+		Client c2 = new Clinet("toto","tata");
+		
+		
+		
 		Jeu j1 = new Jeu ("Fifa",pc);
 		Jeu j2 = new Jeu ("Burnout",ps4);
 		Jeu j3 = new Jeu ("Zelda",ps4);
