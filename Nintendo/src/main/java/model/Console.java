@@ -3,19 +3,15 @@ import java.time.LocalDate;
 
 public abstract class Console {
 
-
-
-
-
-
 	protected String nom;
 	protected double prix;
 	protected LocalDate dateSortie;
 
-	public Console(String nom, double prix, LocalDate dateSortie) {
+
+	public Console(String nom, double prix, String date) {
 		this.nom = nom;
 		this.prix = prix;
-		this.dateSortie = dateSortie;
+		this.date = date;
 	}
 
 

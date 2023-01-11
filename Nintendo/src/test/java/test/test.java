@@ -1,5 +1,6 @@
 package test;
 
+import model.Achat;
 import model.Adresse;
 import model.Boutique;
 import model.Console;
@@ -10,13 +11,11 @@ public class test {
 
 	public static void main(String[] args) {
 		
-		Console ps4 = new Console ("PS4");
-		Console pc = new Console ("PC");
-		Console Xbox = new Console ("XBOX");
+		Console ps4 = new Console ("PS4",350,"12-12-2010");
+		Console pc = new Console ("PC Gaming",2200,"10-01-2020");
+		Console Xbox = new Console ("XBOX",350,"12-12-2009");
 		
 
-		
-		
 		Jeu j1 = new Jeu ("Fifa",pc);
 		Jeu j2 = new Jeu ("Burnout",ps4);
 		Jeu j3 = new Jeu ("Zelda",ps4);
@@ -31,6 +30,8 @@ public class test {
 		System.out.println(j4);
 		System.out.println(j5);
 		System.out.println(a1);
+		
+		
 		Adresse chezNous = new Adresse(11,"Rue des Cacahuètes", "Scientrier");
 		Boutique boubou = new Boutique("Jeux Tout Chaud", chezNous);
 		
