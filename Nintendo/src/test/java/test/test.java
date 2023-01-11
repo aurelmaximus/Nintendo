@@ -1,5 +1,6 @@
 package test;
 
+import model.Client;
 import model.Console;
 import model.Jeu;
 
@@ -11,6 +12,10 @@ public class test {
 		Console ps4 = new Console ("PS4");
 		Console pc = new Console ("PC");
 		Console Xbox = new Console ("XBOX");
+		
+		Clinet c1 = new Client("tata";"titi");
+		Client c2 = new Clinet("toto","tata");
+		
 		
 		
 		Jeu j1 = new Jeu ("Fifa",pc);
