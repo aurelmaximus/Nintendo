@@ -7,7 +7,6 @@ public abstract class Console {
 	protected double prix;
 	protected LocalDate dateSortie;
 
-
 	public Console(String nom, double prix, String date) {
 		this.nom = nom;
 		this.prix = prix;
