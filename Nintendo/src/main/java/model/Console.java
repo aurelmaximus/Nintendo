@@ -6,12 +6,12 @@ public class Console {
 
 	private String nom;
 	private double prix;
-	private LocalDate dateSortie;
+	private String date;
 
-	public Console(String nom, double prix, LocalDate dateSortie) {
+	public Console(String nom, double prix, String date) {
 		this.nom = nom;
 		this.prix = prix;
-		this.dateSortie = dateSortie;
+		this.date = date;
 	}
 
 
