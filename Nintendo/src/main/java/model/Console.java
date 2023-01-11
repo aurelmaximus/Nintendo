@@ -1,8 +1,12 @@
 package model;
 
+<<<<<<< HEAD
+public abstract class Console {
+=======
 import java.time.LocalDate;
 
 public class Console {
+>>>>>>> main
 
 	private String nom;
 	private double prix;
