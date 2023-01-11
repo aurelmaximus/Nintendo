@@ -1,6 +1,7 @@
 package test;
 
-import model.Achat;
+import model.Adresse;
+import model.Boutique;
 import model.Console;
 import model.Jeu;
 
@@ -30,6 +31,8 @@ public class test {
 		System.out.println(j4);
 		System.out.println(j5);
 		System.out.println(a1);
+		Adresse chezNous = new Adresse(11,"Rue des Cacahuètes", "Scientrier");
+		Boutique boubou = new Boutique("Jeux Tout Chaud", chezNous);
 		
 	}
 
